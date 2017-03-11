@@ -1,0 +1,55 @@
+.center {
+  text-align: center;
+  margin: auto;
+}
+.profile-picture {
+  width: 350px;
+  height: 250px;
+  padding: 1%;
+  background-color: #ffe0b3;
+  border-radius: 25%;
+}
+.action-button {
+  background-color: #cc6600;
+  color: #F6CE30;
+  padding: 10px;
+  margin-top: 1.5%;
+  border-radius: 4px;
+  font-family: 'Bungee', serif;
+  font-size: 21px;
+  display: inline-block;
+}
+aside {
+  background-color: #994d00;
+  width: 20%;
+  float: left;
+}
+p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+header, footer {
+  background-color: #cc6600;
+  color: #fff;
+}
+.container {
+  background-color: #994d00;
+  overflow: hidden;
+}
+#social-media img {
+  width: 35px;
+  padding: 1.5%;
+}
+#words {
+  color: white;
+}
+@media  all and (max-width:850px) {
+  main, aside {
+    width: 100%;
+  }
+  section {
+    padding-right: 20px;
+    padding-left: 20px
+  }
+}
